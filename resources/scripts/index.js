@@ -48,7 +48,7 @@ function addTask() {
     }
 
     
-    const taskId = tasks.length;
+    const taskId = tasks.length > 0 ? tasks[tasks.length - 1].id + 1 : 0;
 
 
     const taskObj = {
