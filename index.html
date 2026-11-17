@@ -19,7 +19,9 @@
     <div class="background"></div>
     <img id="github-button" src="resources/img/github.svg" alt="github" onclick="window.location.href='https://github.com/cfrBernard';">
     <div class="container">
-        <input type="text" id="taskInput" placeholder="Add a task...">
+        
+        <input type="text" id="taskInput" placeholder="Add a task..." maxlength="10">
+
         <button id="add-btn" onclick="addTask()">Add<i class="fas fa-plus-circle"></i></button>
         <div id="taskList"></div>
     </div>
